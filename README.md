@@ -5,7 +5,7 @@ Bayesian Optimization for Cointegration-Based Basket Trading with Rolling Out-of
 This project investigates whether classical cointegration-based mean-reversion strategies can be improved using Bayesian Optimization (BO).  
 Instead of relying only on Johansen test hedge ratios, the system searches for weight vectors and trading thresholds that maximize out-of-sample Sharpe ratio.
 
-## 🔍 Motivation
+##  Motivation
 Cointegration is widely used for statistical arbitrage, but traditional hedge-ratio estimation often fails out-of-sample.  
 The idea explored here is:
 
@@ -38,7 +38,7 @@ Objective = out-of-sample Sharpe − turnover_penalty − λ × volatility
 - Paired t-test  
 - Wilcoxon signed-rank test  
 
-## 📈 Key Results
+##  Key Results
 
 | Metric | Johansen | BO-Optimized |
 |--------|----------|---------------|
@@ -48,4 +48,4 @@ Objective = out-of-sample Sharpe − turnover_penalty − λ × volatility
 
 The BO-optimized strategy delivers a statistically significant improvement in out-of-sample Sharpe ratio.
 
-## 📦 Repository Structure
+##  Repository Structure
