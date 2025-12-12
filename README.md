@@ -1,6 +1,6 @@
 # Bayesian Optimization for Cointegration-Based Basket Trading
 
-**Author:** Your Name  
+**Author:** Anish Deshmukh
 **Date:** 2025-12-12
 
 ---
