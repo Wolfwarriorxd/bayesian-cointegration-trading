@@ -66,26 +66,6 @@ Interpretation: BO produces statistically significant improvement in out-of-samp
 5. **Diagnostics:** compute trade-level stats, turnover, and a TC sweep. Perform paired statistical tests across per-window Sharpe.  
 6. **Robustness options:** ensemble averaging of top-K candidates, turnover filtering, and regularization on weights.
 
----
-
-## Files & repository structure
-bayesian-cointegration-strategy/
-├── README.md # <-- you are here
-├── requirements.txt
-├── basket_strategy.ipynb # notebook with exploratory analysis & visuals
-├── src/
-│ └── basket_strategy.py # production-ready pipeline
-├── plots/
-│ ├── sharpe_histogram.png
-│ ├── tc_sensitivity.png
-│ └── cumulative_example.png
-└── results/
-├── rolling_metrics.csv
-├── aggregated_metrics.json
-├── candidates_summary.json
-├── trade_stats.csv
-└── RESULTS_SUMMARY.md
-
 Visualization & presentation
 
 plots/sharpe_histogram.png — distribution of per-window Sharpe (BO vs baseline).
