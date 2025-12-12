@@ -3,5 +3,6 @@ pandas
 matplotlib
 statsmodels
 bayesian-optimization
-pandas-datareader
+requests
 scipy
+seaborn
