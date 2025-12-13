@@ -50,7 +50,7 @@ Interpretation: BO produces statistically significant improvement in out-of-samp
 
 ---
 
-## Methodology (concise)
+## Methodology
 
 1. **Data:** daily adjusted close prices for a 3-asset basket (configurable).  
 2. **Baseline:** compute Johansen cointegration vector on log prices; normalize by `sum(abs(weights))`.  
@@ -74,6 +74,6 @@ plots/tc_sensitivity.png — transaction-cost sensitivity curve.
 
 plots/cumulative_example.png — cumulative returns for an example OOS window.
 
-Citation / Acknowledgements
+Acknowledgements
 
 This project uses open-source libraries including numpy, pandas, matplotlib, statsmodels, scipy, and bayesian-optimization. Data in the notebook was sourced from publicly available APIs (e.g. / Tiingo). Please respect data-provider terms when using third-party data.
